@@ -93,8 +93,8 @@ class DashboardController {
          */
         require_once(ROOT . '/components/lib/email/api/sendpulseInterface.php');
         require_once(ROOT . '/components/lib/email/api/sendpulse.php');
-        define('API_USER_ID', '-api-user-id-');
-        define('API_SECRET', '-api-user-secret-');
+        define('API_USER_ID', '-deleted for security reasons-');
+        define('API_SECRET', '-deleted for security reasons-');
         $SPApiProxy = new SendpulseApi(API_USER_ID, API_SECRET, 'file');
         $email = array(
             'html' => '',
@@ -102,7 +102,7 @@ class DashboardController {
             'subject' => "New feedback from {$userName}  ($userEmail)",
             'from' => array(
                 'name' => 'Dashboard',
-                'email' => '-sendpulse-email-registered-on-'
+                'email' => '-deleted for security reasons-'
             ),
             'to' => include(ROOT . '/config/emailAddressesTo.php')
         );
