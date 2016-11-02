@@ -2,12 +2,12 @@
 
 return array(
 	array(
-        'name' => '',
-        'email' => ''
+        'name' => '-deleted for security reasons-',
+        'email' => '-deleted for security reasons-'
     ),
     array(
-        'name' => '',
-        'email' => ''
+        'name' => '-deleted for security reasons-',
+        'email' => '-deleted for security reasons-
     )
 );
 
